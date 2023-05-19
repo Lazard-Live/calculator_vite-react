@@ -1,5 +1,7 @@
 import "./Wrapper.scss";
 
-export default function Wrapper(children) {
+const Wrapper = ({ children }) => {
     return <div className="wrapper">{children}</div>
 }
+
+export default Wrapper;
