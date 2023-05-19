@@ -1,7 +1,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import Form from "./components/Form/Form.jsx";
 import './App.scss'
+import Wrapper from "./components/Wrapper/Wrapper.jsx";
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
                 <img src={reactLogo} className="logo react" alt="React logo"/>
             </div>
             <h1>Calculator</h1>
-            <Form/>
+            <Wrapper></Wrapper>
         </>
     )
 }
