@@ -7,7 +7,7 @@ import ButtonBox from "./components/ButtonBox/ButtonBox.jsx";
 import Button from "./components/Button/Button.jsx";
 
 const btnValues = [
-    ["C", "+-", "%", "/"],
+    ["C", "±", "%", "/"],
     [7, 8, 9, "X"],
     [4, 5, 6, "-"],
     [1, 2, 3, "+"],
